@@ -1,6 +1,6 @@
 public class day5{
   
-  poublic static void main(String []args) {
+  public static void main(String []args) {
     
           byte umur = 19; //Tipe data byte
           short tinggi = 141; //Tipe data short
