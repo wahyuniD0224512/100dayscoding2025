@@ -1,0 +1,23 @@
+public class latihan1 {
+    public static void main(String[] args) {
+        String tes [] = new String[6];
+        tes[0] = "1";
+        tes[1] = "4";
+        tes[2] = "2";
+        tes[3] = "5";
+        tes[4] = "6";
+        tes[5] = "2";
+        String ayu = tes[5];
+        for (int i = 5; i >= 0; i--) {
+            if(i==0){
+                tes[i]=ayu;
+            }else{
+                tes[i]=tes [i-1];
+            }
+            
+        }
+        for (int j = 0; j < 6; j++) {
+            System.out.println(tes[j]);
+        }
+    }
+}
