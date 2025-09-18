@@ -1,7 +1,7 @@
 public class day10 {
     public static void main(String[] args) {
-        int angka1 = 18;
-        int angka2 = 5;
+       final int angka1 = 18;
+       final int angka2 = 5;
         
         int hasil = angka1 + angka2;
         System.out.println("angka pertama : "+angka1);
