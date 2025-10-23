@@ -6,9 +6,9 @@ public class Day46 {
     public static void main(String[] args) {
         System.out.println("====MENU=====");
         System.out.print("Masukkan minuman yang ingin dipilih :");
-        String a = "kopi";
-        String b = "teh";
-        String c = "jus";
+        String a = "1. kopi";
+        String b = "2. teh";
+        String c = "3. jus";
         Scanner ayu = new Scanner(System.in);   
         int pilihan = ayu.nextInt();
      switch(pilihan){
